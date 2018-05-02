@@ -68,5 +68,13 @@
     "supertest": "^3.0.0",
     "webpack": "^4.0.1",
     "webpack-cli": "^2.0.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJ-RM/PackFinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DJ-RM/PackFinder/issues"
+  },
+  "homepage": "https://github.com/DJ-RM/PackFinder#readme"
 }
