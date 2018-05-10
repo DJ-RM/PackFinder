@@ -384,6 +384,9 @@ export class DogPark extends Component {
     });
     this.updateD3();
   }
+  handleSliderChange = e => {
+    this.setState({ slider: e.target.value})
+  }
   render() {
       const { children } = this.props
       const { fixed } = this.state
@@ -465,10 +468,6 @@ export class DogPark extends Component {
         location:this.state.park.address.location}
       }
     ]
-
-    handleSliderChange = e => {
-      this.setState({ slider: e.target.value})
-    }
 
     return (
       <div>
